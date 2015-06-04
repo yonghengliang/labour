@@ -17,10 +17,10 @@ public class LoginAction {
     private static Logger log = LogManager.getLogger(LoginAction.class);
 
     /**
-     * ÓÃ»§µÇÂ¼
-     * @param username ÓÃ»§Ãû
-     * @param password ÃÜÂë
-     * @return ´Ó¶¨ÏòµØÖ·
+     * ç”¨æˆ·ç™»å½•
+     * @param username ç”¨æˆ·å
+     * @param password å¯†ç 
+     * @return é‡å®šå‘åœ°å€
      */
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String login(String username, String password) {
